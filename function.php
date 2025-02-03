@@ -1,13 +1,13 @@
 <?php
 
-function testandoFunction() {
-    echo "Ola, seja bem vindo!\n";
+echo "Qual seu nome ?\n";
+
+$nome = trim(fgets(STDIN));
+
+function saudacaoPersonalizada ($nome){
+    echo "Ola $nome! seja bem-vindo!\n";
 }
 
-$numero = 1;
-
-if ($numero == 1){
-    echo testandoFunction();
-}
+saudacaoPersonalizada ($nome);
 
 ?>
