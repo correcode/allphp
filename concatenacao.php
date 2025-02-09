@@ -5,6 +5,6 @@ $sobrenome = "Alves";
 
 $nomeCompleto = $nome . " " . $sobrenome;
 
-echo "Seja bem vindo: $nomeCompleto \n";
+echo "Olá $nomeCompleto! " . "Seja Bem vindo" . "\n";
 
 ?>
