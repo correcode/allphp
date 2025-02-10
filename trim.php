@@ -1,7 +1,7 @@
 <?php
 
-$texto = "  Ola, Mundo!   \n";
+$nome = trim(fgets(STDIN));
 
-echo trim($texto);
+echo "Seja bem vindo! $nome\n";
 
 ?>
