@@ -3,22 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>teste formulario</title>
+        <title>Form with PHP</title>
     </head>
+
     <body>
 
-        <form action="processar.php" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea type="mensagem" id="mensagem" required>Digite aqui</textarea>
-
+        <form action="get.php" method="GET">
+            <input type="text" name="nome" placeholder="Digite seu nome">
             <button type="submit">Enviar</button>
-
+        </form>
 
     </body>
 </html>
